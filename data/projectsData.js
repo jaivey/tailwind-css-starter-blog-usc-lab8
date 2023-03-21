@@ -1,17 +1,13 @@
 const projectsData = [
   {
-    title: 'A Search Engine',
-    description: `What if you could look up any information in the world? Webpages, images, videos
-    and more. Google has many features to help you find exactly what you're looking
-    for.`,
+    title: 'Ivey to Buy Google',
+    description: `The famed journalist, Justin Ivey, has announced that he will be buying Google for a low price of $0.99. The deal is expected to close in the next 24 hours.`,
     imgSrc: '/static/images/google.png',
     href: 'https://www.google.com',
   },
   {
-    title: 'The Time Machine',
-    description: `Imagine being able to travel back in time or to the future. Simple turn the knob
-    to the desired date and press "Go". No more worrying about lost keys or
-    forgotten headphones with this simple yet affordable solution.`,
+    title: 'USC Iovine and Young Academy Students Build Time Machine',
+    description: `Recent graduates of the USC Iovine and Young Academy have built a time machine. The machine is expected to be ready for use in the next 24 hours.`,
     imgSrc: '/static/images/time-machine.jpg',
     href: '/blog/the-time-machine',
   },
