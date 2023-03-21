@@ -1,30 +1,21 @@
 ---
-title: Introducing Multi-part Posts with Nested Routing
-date: '2021-05-02'
-tags: ['multi-author', 'next-js', 'feature']
+title: Steph Curry Requests Trade To Lakers
+date: '2023-04-08'
+tags: ['NBA', 'Warriors', 'Lakers']
 draft: false
-summary: 'The blog template supports posts in nested sub-folders. This can be used to group posts of similar content e.g. a multi-part course. This post is itself an example of a nested route!'
+summary: 'Steph Curry requests trade to the greatest NBA franchise to ever exist.'
 ---
 
-# Nested Routes
+## Overview
 
-The blog template supports posts in nested sub-folders. This helps in organisation and can be used to group posts of similar content e.g. a multi-part series. This post is itself an example of a nested route! It's located in the `/data/blog/nested-route` folder.
+In a shocking turn of events, Golden State Warriors superstar Steph Curry has reportedly requested a trade to their biggest rival, the Los Angeles Lakers. Sources close to the situation have confirmed that Curry is seeking a fresh start and believes that joining forces with LeBron James and Anthony Davis would give him the best chance to win another championship.
 
-## How
+The news has sent shockwaves through the basketball world, with many fans and analysts questioning the wisdom of Curry's decision to join a team that has been the Warriors' biggest rival in recent years. However, Curry appears to be undeterred by the potential backlash, believing that he can make a significant impact on the Lakers' already-stacked roster.
 
-Simplify create multiple folders inside the main `/data/blog` folder and add your `.md`/`.mdx` files to them. You can even create something like `/data/blog/nested-route/deeply-nested-route/my-post.md`
+Curry, who is widely regarded as one of the greatest shooters in NBA history, has spent his entire career with the Warriors, leading them to three championships and earning two MVP awards in the process. However, in recent years, the team has struggled to maintain its dominance, leading to rumors of discord between Curry and his teammates.
 
-We use Next.js catch all routes to handle the routing and path creations.
+Sources close to the Lakers organization have confirmed that the team is interested in acquiring Curry and that discussions are currently underway between the two teams. However, it remains to be seen whether the Warriors will be willing to part with their franchise player or whether Curry's reported desire to join the Lakers will lead to a successful trade.
 
-## Use Cases
+The potential move has already drawn strong reactions from fans and analysts, with some expressing excitement at the prospect of seeing Curry team up with James and Davis, while others have criticized the move as a betrayal of the Warriors and their fans. For now, however, all eyes are on Curry and the Lakers as they work towards what could be one of the biggest trades in NBA history.
 
-Here are some reasons to use nested routes
-
-- More logical content organisation (blogs will still be displayed based on the created date)
-- Multi-part posts
-- Different sub-routes for each author
-- Internationalization (though it would be recommended to use [Next.js built-in i8n routing](https://nextjs.org/docs/advanced-features/i18n-routing))
-
-## Note
-
-- The previous/next post links at bottom of the template are currently sorted by date. One could explore modifying the template to refer the reader to the previous/next post in the series, rather than by date.
+As of now, neither the Lakers nor Curry have commented on the reported trade request, leaving fans and analysts to speculate about the potential implications of such a move. Whether Curry will ultimately don the purple and gold remains to be seen, but one thing is certain – the NBA landscape is set for a seismic shift if the trade does go through.
