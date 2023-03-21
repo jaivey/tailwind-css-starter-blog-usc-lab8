@@ -6,7 +6,7 @@ draft: false
 summary: 'Steph Curry requests trade to the greatest NBA franchise to ever exist.'
 ---
 
-## Overview
+## Curry to Don The Purple and Gold
 
 In a shocking turn of events, Golden State Warriors superstar Steph Curry has reportedly requested a trade to their biggest rival, the Los Angeles Lakers. Sources close to the situation have confirmed that Curry is seeking a fresh start and believes that joining forces with LeBron James and Anthony Davis would give him the best chance to win another championship.
 
