@@ -1,76 +1,22 @@
 ---
-title: Images in Next.js
-date: '2020-11-11'
-tags: ['next js', 'guide']
+title: USC Professor Coaches Trojans Baseball Team to College World Series
+date: '2023-04-01'
+tags: ['USC', 'Baseball']
 draft: false
 summary: 'In this article we introduce adding images in the tailwind starter blog and the benefits and limitations of the next/image component.'
 authors: ['sparrowhawk']
 ---
 
-# Introduction
+# Overview
 
-The tailwind starter blog has out of the box support for [Next.js's built-in image component](https://nextjs.org/docs/api-reference/next/image) and automatically swaps out default image tags in markdown or mdx documents to use the Image component provided.
+The USC Trojans have just punched their ticket to the College Baseball World Series, and their success is being attributed in no small part to the guidance and expertise of their coach, Jake Spurlock. Spurlock, a longtime professor at USC, has spent years studying the game of baseball and developing innovative coaching strategies that have helped his team rise to the top of the college ranks.
 
-# Usage
+For Spurlock, coaching the Trojans has been a dream come true, and he has relished every moment of his team's success. In a recent interview, he spoke about the hard work and dedication that has gone into building a winning program, saying, "We've put in countless hours of practice and preparation, and it's incredibly gratifying to see it all pay off on the field."
 
-To use in a new page route / javascript file, simply import the image component and call it e.g.
+The Trojans' success this season has been nothing short of remarkable, with the team posting a 50-10 record and dominating their opponents with a combination of powerful hitting and solid defense. Fans and analysts alike have been impressed by the team's performances, with many pointing to Spurlock's innovative coaching strategies as a key factor in their success.
 
-```js
-import Image from 'next/image'
+Spurlock, for his part, has been quick to credit his players for their hard work and dedication, saying, "These guys are the real deal. They've bought into our system and put in the work to make it all happen. I couldn't be more proud of them."
 
-function Home() {
-  return (
-    <>
-      <h1>My Homepage</h1>
-      <Image src="/me.png" alt="Picture of the author" width={500} height={500} />
-      <p>Welcome to my homepage!</p>
-    </>
-  )
-}
+As the Trojans prepare for the College Baseball World Series, the pressure is on for Spurlock and his team to continue their winning ways. However, with the guidance of their knowledgeable and experienced coach, the Trojans are confident that they have what it takes to bring home the championship trophy.
 
-export default Home
-```
-
-For a markdown file, the default image tag can be used and the default `img` tag gets replaced by the `Image` component in the build process.
-
-Assuming we have a file called `ocean.jpg` in `data/img/ocean.jpg`, the following line of code would generate the optimized image.
-
-```
-![ocean](/static/images/ocean.jpg)
-```
-
-Alternatively, since we are using mdx, we can just use the image component directly! Note, that you would have to provide a fixed width and height. The `img` tag method parses the dimension automatically.
-
-```js
-<Image alt="ocean" src="/static/images/ocean.jpg" width={256} height={128} />
-```
-
-_Note_: If you try to save the image, it is in webp format, if your browser supports it!
-
-![ocean](/static/images/ocean.jpeg)
-
-<p>
-  Photo by [YUCAR
-  FotoGrafik](https://unsplash.com/@yucar?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
-  on
-  [Unsplash](https://unsplash.com/s/photos/sea?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
-</p>
-
-# Benefits
-
-- Smaller image size with Webp (~30% smaller than jpeg)
-- Responsive images - the correct image size is served based on the user's viewport
-- Lazy loading - images load as they are scrolled to the viewport
-- Avoids [Cumulative Layout Shift](https://web.dev/cls/)
-- Optimization on demand instead of build-time - no increase in build time!
-
-# Limitations
-
-- Due to the reliance on `next/image`, unless you are using an external image CDN like Cloudinary or Imgix, it is practically required to use Vercel for hosting. This is because the component acts like a serverless function that calls a highly optimized image CDN.
-
-  If you do not want to be tied to Vercel, you can remove `imgToJsx` in `remarkPlugins` in `lib/mdx.js`. This would avoid substituting the default `img` tag.
-
-  Alternatively, one could wait for image optimization at build time to be supported. A different library, [next-optimized-images](https://github.com/cyrilwanner/next-optimized-images) does that, although it requires transforming the images through webpack which is not done here.
-
-- Images from external links are not passed through `next/image`
-- All images have to be stored in the `public` folder e.g `/static/images/ocean.jpeg`
+For USC fans, the success of the baseball team has been a welcome reprieve from the challenges of the past year, offering a glimmer of hope and positivity in uncertain times. With Spurlock at the helm, the Trojans are poised for even greater success in the years to come, solidifying their place among the elite programs in college baseball.
